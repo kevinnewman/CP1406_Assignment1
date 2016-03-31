@@ -21,7 +21,7 @@ footer{
 	border-radius: 20px;
 }
 
-.home_heading{
+.heading{
 	margin-top:50px;
 	text-align:center;
 	font-size:54px;
@@ -47,6 +47,39 @@ footer{
 	padding-bottom:50px;
 	width:30%;
 }
+
+.content{
+	float:left;
+	width:60%;
+	margin:0px 0px 55px 0px;
+	font-size:18px;
+	padding-top:0px;
+	padding-left:10px;
+	padding-right:80px;
+	
+	background-color:#E4E3E3;
+	font-family:"Open Sans", Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", serif
+}
+
+.content2{
+	float:left;
+	width:50%;
+	font-size:18px;
+	padding-top:250px;
+	padding-left:10px;
+	padding-right:80px;
+	background-color:#E4E3E3;
+	font-family:"Open Sans", Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", serif
+}
+
+.content_img{
+	float:left;
+	padding-top:90px;
+	padding-left:50px;
+	padding-bottom:50px;
+	width:30%;
+}
+
 
 .events{
 	float:left;
@@ -87,7 +120,7 @@ footer{
 	text-align: center;
 	box-sizing: border-box;
 	padding: 0.2em;
-	width: 19%;
+	width: 24%;
 	border: thin solid #000000;
 	border-radius: 10px;
 	background-color: #E5B680;
@@ -117,7 +150,7 @@ footer{
 	text-align: center;
 	box-sizing: border-box;
 	padding: 0.2em;
-	width: 16%;
+	width: 19%;
 	border: thin solid #000000;
 	border-radius: 10px;
 	background-color: #E5B680;
@@ -134,5 +167,14 @@ footer{
 .active{
 	color:red;
 	font-weight:bold;
+}
+
+.email_link{
+	background-color:#F7710B;
+	border-radius: 5px;
+}
+
+.table_right{
+	text-align:right;
 }
 	
