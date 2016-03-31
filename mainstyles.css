@@ -4,7 +4,59 @@
 body{
 	min-width:1400px;
 	max-width:1600px;
-	font-family:"Open Sans";
+	background-color:#E4E3E3;
+	font-family:"Open Sans", Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", serif;
+}
+
+footer{
+	clear: both;
+	text-align:center;
+	text-height:35px;
+	font-family: "Open Sans";
+	background-color: #57B498;
+	padding-top: 0.5em;
+	padding-bottom: 0.5em;
+	color: black;
+	border: thin solid #000000;
+	border-radius: 20px;
+}
+
+.home_heading{
+	margin-top:50px;
+	text-align:center;
+	font-size:54px;
+	color:#CF5570;
+	font-family:"Indie Flower", Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", serif;
+	font-style:italic;
+}
+
+.home_content{
+	float:left;
+	width:30%;
+	font-size:35px;
+	padding-top:120px;
+	padding-left:10px;
+	background-color:#E4E3E3;
+	font-family:"Indie Flower", Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", serif
+}
+
+.home_content_img{
+	float:left;
+	padding-top:90px;
+	padding-left:50px;
+	padding-bottom:50px;
+	width:30%;
+}
+
+.events{
+	float:left;
+	width:30%;
+	font-size:12px;
+	padding-top:10px;
+	padding-left:25px;
+	padding-right:10px;
+	background-color:#E4E3E3;
+	font-family:"Open Sans", Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", serif
 }
 
 .logo{
@@ -19,11 +71,6 @@ body{
 	padding:20px;
 }
 
-body{
-	background-color:#E4E3E3;
-	font-family:"Open Sans", Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", serif
-}
-	
 .home nav{
 	clear: both;
 	font-family: "Indie Flower";
@@ -89,6 +136,3 @@ body{
 	font-weight:bold;
 }
 	
-.content{
-	font-family:"Open Sans";
-}
