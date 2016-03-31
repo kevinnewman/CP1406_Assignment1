@@ -1,0 +1,94 @@
+@import url(https://fonts.googleapis.com/css?family=Indie+Flower);
+@import url(https://fonts.googleapis.com/css?family=Open+Sans);
+
+body{
+	min-width:1400px;
+	max-width:1600px;
+	font-family:"Open Sans";
+}
+
+.logo{
+	font-family: "Indie Flower";
+	font-size:40px;
+	font-style:italic;
+	color:#E33333
+}
+
+.logo img{
+	float:right;
+	padding:20px;
+}
+
+body{
+	background-color:#E4E3E3;
+	font-family:"Open Sans", Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", serif
+}
+	
+.home nav{
+	clear: both;
+	font-family: "Indie Flower";
+	background-color: #57B498;
+	padding-top: 0.5em;
+	padding-bottom: 0.5em;
+	color: #57B498;
+	border: thin solid #000000;
+	border-radius: 20px;
+}
+
+.home nav ul li{
+	display: inline-block;
+	text-align: center;
+	box-sizing: border-box;
+	padding: 0.2em;
+	width: 19%;
+	border: thin solid #000000;
+	border-radius: 10px;
+	background-color: #E5B680;
+	color: #E5B680;
+}
+	
+.home a:hover{
+	background-color:#D47E7F;
+	padding-right:0.5em;
+	padding-left:0.5em;
+	border-radius: 10px;
+}
+
+.not_home nav{
+	clear: both;
+	font-family: "Indie Flower";
+	background-color: #57B498;
+	padding-top: 0.5em;
+	padding-bottom: 0.5em;
+	color: #57B498;
+	border: thin solid #000000;
+	border-radius: 20px;
+}
+
+.not_home nav ul li{
+	display: inline-block;
+	text-align: center;
+	box-sizing: border-box;
+	padding: 0.2em;
+	width: 16%;
+	border: thin solid #000000;
+	border-radius: 10px;
+	background-color: #E5B680;
+	color: #E5B680;
+}
+
+.not_home a:hover{
+	background-color:#D47E7F;
+	padding-right:0.5em;
+	padding-left:0.5em;
+	border-radius: 10px;
+}
+
+.active{
+	color:red;
+	font-weight:bold;
+}
+	
+.content{
+	font-family:"Open Sans";
+}
